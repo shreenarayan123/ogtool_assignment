@@ -1,17 +1,14 @@
 from typing import List, Optional
 from urllib.parse import urljoin
-from playwright.async_api import async_playwright
 import requests
 from bs4 import BeautifulSoup
-import json
 import time
 import re
-from urllib.parse import urljoin, urlparse, parse_qs
+from urllib.parse import urljoin, urlparse
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Optional, Any
 import PyPDF2
 import io
-from pathlib import Path
 import logging
 from abc import ABC, abstractmethod
 
